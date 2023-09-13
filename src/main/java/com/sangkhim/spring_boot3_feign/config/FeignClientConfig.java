@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.FeignBuilderCustomizer;
 import org.springframework.cloud.openfeign.support.SpringMvcContract;
 import org.springframework.context.annotation.Bean;
 
-public class FeignClientConfiguration {
+public class FeignClientConfig {
 
   @Bean
   public FeignBuilderCustomizer customizer() {
