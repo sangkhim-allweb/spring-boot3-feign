@@ -1,6 +1,6 @@
 package com.sangkhim.spring_boot3_feign.controller;
 
-import com.sangkhim.spring_boot3_feign.feign.TodosClient;
+import com.sangkhim.spring_boot3_feign.feign.TodoClient;
 import com.sangkhim.spring_boot3_feign.model.dto.TodoDTO;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class TodoController {
 
-  private final TodosClient todosClient;
+  private final TodoClient todosClient;
 
   @GetMapping("/v1/todos")
   public ResponseEntity<List<TodoDTO>> getTodos() {

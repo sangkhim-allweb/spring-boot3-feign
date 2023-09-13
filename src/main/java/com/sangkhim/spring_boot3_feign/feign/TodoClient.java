@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @FeignClient(name = "todos", url = "https://jsonplaceholder.typicode.com")
-public interface TodosClient {
+public interface TodoClient {
 
   @GetMapping("/todos")
   ResponseEntity<List<TodoDTO>> getTodos();
