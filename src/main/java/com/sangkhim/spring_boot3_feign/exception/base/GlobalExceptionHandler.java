@@ -1,4 +1,4 @@
-package com.sangkhim.spring_boot3_h2.exception.base;
+package com.sangkhim.spring_boot3_feign.exception.base;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.sangkhim.spring_boot3_h2.exception.dto;
+package com.sangkhim.spring_boot3_feign.exception.dto;
 
 import java.sql.Timestamp;
 import lombok.*;

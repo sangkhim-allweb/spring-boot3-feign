@@ -1,6 +1,6 @@
-package com.sangkhim.spring_boot3_h2.repository;
+package com.sangkhim.spring_boot3_feign.repository;
 
-import com.sangkhim.spring_boot3_h2.model.entity.Tag;
+import com.sangkhim.spring_boot3_feign.model.entity.Tag;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

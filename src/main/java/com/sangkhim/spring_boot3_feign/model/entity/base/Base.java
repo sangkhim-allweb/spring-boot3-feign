@@ -1,4 +1,4 @@
-package com.sangkhim.spring_boot3_h2.model.entity.base;
+package com.sangkhim.spring_boot3_feign.model.entity.base;
 
 import java.time.Instant;
 import org.hibernate.annotations.CreationTimestamp;

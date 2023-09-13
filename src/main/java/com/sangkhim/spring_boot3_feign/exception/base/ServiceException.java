@@ -1,4 +1,4 @@
-package com.sangkhim.spring_boot3_h2.exception.base;
+package com.sangkhim.spring_boot3_feign.exception.base;
 
 @SuppressWarnings("serial")
 public class ServiceException extends RuntimeException {

@@ -1,4 +1,4 @@
-package com.sangkhim.spring_boot3_h2.utils;
+package com.sangkhim.spring_boot3_feign.utils;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;

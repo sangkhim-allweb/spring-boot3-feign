@@ -1,7 +1,7 @@
-package com.sangkhim.spring_boot3_h2.controller;
+package com.sangkhim.spring_boot3_feign.controller;
 
-import com.sangkhim.spring_boot3_h2.model.entity.Author;
-import com.sangkhim.spring_boot3_h2.service.AuthorService;
+import com.sangkhim.spring_boot3_feign.model.entity.Author;
+import com.sangkhim.spring_boot3_feign.service.AuthorService;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

@@ -1,12 +1,12 @@
-package com.sangkhim.spring_boot3_h2.exception.base;
+package com.sangkhim.spring_boot3_feign.exception.base;
 
-import com.sangkhim.spring_boot3_h2.exception.BadRequestException;
-import com.sangkhim.spring_boot3_h2.exception.DataNotFoundException;
-import com.sangkhim.spring_boot3_h2.exception.DuplicateException;
-import com.sangkhim.spring_boot3_h2.exception.ForbiddenException;
-import com.sangkhim.spring_boot3_h2.exception.TooManyRequestsException;
-import com.sangkhim.spring_boot3_h2.exception.UnauthorizedException;
-import com.sangkhim.spring_boot3_h2.exception.dto.ErrorResponse;
+import com.sangkhim.spring_boot3_feign.exception.BadRequestException;
+import com.sangkhim.spring_boot3_feign.exception.DataNotFoundException;
+import com.sangkhim.spring_boot3_feign.exception.DuplicateException;
+import com.sangkhim.spring_boot3_feign.exception.ForbiddenException;
+import com.sangkhim.spring_boot3_feign.exception.TooManyRequestsException;
+import com.sangkhim.spring_boot3_feign.exception.UnauthorizedException;
+import com.sangkhim.spring_boot3_feign.exception.dto.ErrorResponse;
 import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.Map;

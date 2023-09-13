@@ -1,15 +1,15 @@
-package com.sangkhim.spring_boot3_h2.service;
+package com.sangkhim.spring_boot3_feign.service;
 
-import com.sangkhim.spring_boot3_h2.exception.BadRequestException;
-import com.sangkhim.spring_boot3_h2.exception.DataNotFoundException;
-import com.sangkhim.spring_boot3_h2.model.dto.PostDTO;
-import com.sangkhim.spring_boot3_h2.model.entity.Author;
-import com.sangkhim.spring_boot3_h2.model.entity.Post;
-import com.sangkhim.spring_boot3_h2.model.entity.Tag;
-import com.sangkhim.spring_boot3_h2.repository.AuthorRepository;
-import com.sangkhim.spring_boot3_h2.repository.PostRepository;
-import com.sangkhim.spring_boot3_h2.repository.TagRepository;
-import com.sangkhim.spring_boot3_h2.utils.Translator;
+import com.sangkhim.spring_boot3_feign.exception.BadRequestException;
+import com.sangkhim.spring_boot3_feign.exception.DataNotFoundException;
+import com.sangkhim.spring_boot3_feign.model.dto.PostDTO;
+import com.sangkhim.spring_boot3_feign.model.entity.Author;
+import com.sangkhim.spring_boot3_feign.model.entity.Post;
+import com.sangkhim.spring_boot3_feign.model.entity.Tag;
+import com.sangkhim.spring_boot3_feign.repository.AuthorRepository;
+import com.sangkhim.spring_boot3_feign.repository.PostRepository;
+import com.sangkhim.spring_boot3_feign.repository.TagRepository;
+import com.sangkhim.spring_boot3_feign.utils.Translator;
 import java.text.MessageFormat;
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.sangkhim.spring_boot3_h2.config;
+package com.sangkhim.spring_boot3_feign.config;
 
 import jakarta.servlet.http.HttpServletRequest;
 import java.util.Arrays;

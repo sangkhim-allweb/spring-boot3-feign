@@ -1,6 +1,6 @@
-package com.sangkhim.spring_boot3_h2.repository;
+package com.sangkhim.spring_boot3_feign.repository;
 
-import com.sangkhim.spring_boot3_h2.model.entity.Post;
+import com.sangkhim.spring_boot3_feign.model.entity.Post;
 import java.util.List;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

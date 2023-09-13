@@ -1,4 +1,4 @@
-package com.sangkhim.spring_boot3_h2.config;
+package com.sangkhim.spring_boot3_feign.config;
 
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -54,6 +54,11 @@ public class SwaggerConfig implements WebMvcConfigurer {
   @Bean
   public GroupedOpenApi tagApi() {
     return groupedOpenApi("tags", "/v1/tags/**");
+  }
+
+  @Bean
+  public GroupedOpenApi todoApi() {
+    return groupedOpenApi("todos", "/v1/todos/**");
   }
 
   private GroupedOpenApi groupedOpenApi(String group, String... pathToMatch) {

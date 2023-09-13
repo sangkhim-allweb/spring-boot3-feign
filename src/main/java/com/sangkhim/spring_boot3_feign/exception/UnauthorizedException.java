@@ -1,6 +1,6 @@
-package com.sangkhim.spring_boot3_h2.exception;
+package com.sangkhim.spring_boot3_feign.exception;
 
-import com.sangkhim.spring_boot3_h2.exception.base.ServiceException;
+import com.sangkhim.spring_boot3_feign.exception.base.ServiceException;
 
 /** trigger for unauthorized exception */
 public class UnauthorizedException extends ServiceException {

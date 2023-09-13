@@ -1,8 +1,8 @@
-package com.sangkhim.spring_boot3_h2.model.entity;
+package com.sangkhim.spring_boot3_feign.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.sangkhim.spring_boot3_h2.model.entity.base.Base;
+import com.sangkhim.spring_boot3_feign.model.entity.base.Base;
 import jakarta.persistence.*;
 import java.io.Serializable;
 import java.util.List;

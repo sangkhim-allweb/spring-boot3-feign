@@ -1,4 +1,4 @@
-package com.sangkhim.spring_boot3_h2.model.dto;
+package com.sangkhim.spring_boot3_feign.model.dto;
 
 import jakarta.persistence.Column;
 import jakarta.validation.constraints.NotBlank;

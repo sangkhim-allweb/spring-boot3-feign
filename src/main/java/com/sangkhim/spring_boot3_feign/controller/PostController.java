@@ -1,9 +1,9 @@
-package com.sangkhim.spring_boot3_h2.controller;
+package com.sangkhim.spring_boot3_feign.controller;
 
-import com.sangkhim.spring_boot3_h2.model.dto.PostDTO;
-import com.sangkhim.spring_boot3_h2.model.entity.Post;
-import com.sangkhim.spring_boot3_h2.service.PostService;
-import com.sangkhim.spring_boot3_h2.utils.PageUtils;
+import com.sangkhim.spring_boot3_feign.model.dto.PostDTO;
+import com.sangkhim.spring_boot3_feign.model.entity.Post;
+import com.sangkhim.spring_boot3_feign.service.PostService;
+import com.sangkhim.spring_boot3_feign.utils.PageUtils;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

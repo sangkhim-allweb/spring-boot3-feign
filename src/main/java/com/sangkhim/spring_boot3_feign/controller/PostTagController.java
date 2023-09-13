@@ -1,7 +1,7 @@
-package com.sangkhim.spring_boot3_h2.controller;
+package com.sangkhim.spring_boot3_feign.controller;
 
-import com.sangkhim.spring_boot3_h2.model.entity.Tag;
-import com.sangkhim.spring_boot3_h2.service.PostService;
+import com.sangkhim.spring_boot3_feign.model.entity.Tag;
+import com.sangkhim.spring_boot3_feign.service.PostService;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
