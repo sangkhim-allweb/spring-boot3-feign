@@ -1,5 +1,7 @@
 # Spring Boot 3 H2 Database
 
+    https://jsonplaceholder.typicode.com/
+
 ## swagger
 
     http://localhost:8080/api/
