@@ -58,7 +58,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
 
   @Bean
   public GroupedOpenApi todoApi() {
-    return groupedOpenApi("todos", "/v1/todos/**");
+    return groupedOpenApi("todos", "/v1/todos/**", "/v1/webclient/todos/**");
   }
 
   private GroupedOpenApi groupedOpenApi(String group, String... pathToMatch) {
