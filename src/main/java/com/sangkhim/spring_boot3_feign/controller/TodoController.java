@@ -32,7 +32,7 @@ public class TodoController {
   }
 
   @GetMapping("/v1/webclient/todos")
-  public ResponseEntity<List<TodoDTO>> getTodosWebClient() {
+  public ResponseEntity<List<TodoDTO>> webClientGetTodos() {
     WebClient client =
         WebClient.builder()
             .baseUrl("https://jsonplaceholder.typicode.com/todos")
@@ -40,5 +40,16 @@ public class TodoController {
             .build();
     List<TodoDTO> todos = client.get().retrieve().bodyToFlux(TodoDTO.class).collectList().block();
     return new ResponseEntity<>(todos, HttpStatus.OK);
+  }
+
+  @GetMapping("/v1/webclient/todos/{id}")
+  public ResponseEntity<TodoDTO> webClientGetTodoById(@PathVariable("id") Long id) {
+    WebClient client =
+        WebClient.builder()
+            .baseUrl("https://jsonplaceholder.typicode.com/todos/" + id)
+            .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
+            .build();
+    TodoDTO todo = client.get().retrieve().bodyToMono(TodoDTO.class).block();
+    return new ResponseEntity<>(todo, HttpStatus.OK);
   }
 }
